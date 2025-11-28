@@ -222,13 +222,8 @@ goit-de-hw-06/
 │   ├── sensor_2.jpg                # Скриншот другого датчика (крок 1)
 │   ├── alert-processor.jpg         # Скриншот обробки та фільтрації (кроки 2-4)
 │   └── alert-consumer.jpg          # Скриншот отримання алертів (крок 5)
-├── checkpoint/                     # Checkpoint директорія для PySpark (створюється автоматично)
-├── hadoop/                         # Hadoop утиліти для Windows
-│   └── bin/
-│       └── winutils.exe           # Winutils для Hadoop 3.3
-├── alert_consumer.py               # Споживач алертів (крок 5)
-├── alert_processor.py              # Обробник даних з PySpark (кроки 2-4)
-├── check_kafka_data.py            # Утиліта для перевірки даних в Kafka
+├── alert_consumer.py              # Споживач алертів (крок 5)
+├── alert_processor.py             # Обробник даних з PySpark (кроки 2-4)
 ├── configs.py                     # Конфігурація підключення до Kafka
 ├── create_topics.py               # Створення топіків
 ├── sensor_producer.py             # Генератор даних датчиків (крок 1)
